@@ -52,7 +52,7 @@ function App() {
       </form>
       <h1 className="header">My Todo List</h1>
       <ul className="list">
-        {todos.length === 0 && "boring no todos"}
+        {todos.length === 0 && "I love Aliyah"}
         {todos.map((todo) => {
           return (
             <li key={todo.id}>
